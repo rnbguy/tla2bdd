@@ -1,0 +1,118 @@
+{
+  "#meta": {
+    "format": "ITF",
+    "format-description": "https://apalache.informal.systems/docs/adr/015adr-trace.html",
+    "description": "Created by Apalache on Fri May 20 12:26:51 CEST 2022"
+  },
+  "vars": [
+    "am",
+    "hour",
+    "action"
+  ],
+  "states": [
+    {
+      "#meta": {
+        "index": 0
+      },
+      "action": "Init",
+      "am": true,
+      "hour": 0
+    },
+    {
+      "#meta": {
+        "index": 1
+      },
+      "action": "Tick",
+      "am": true,
+      "hour": 1
+    },
+    {
+      "#meta": {
+        "index": 2
+      },
+      "action": "Tock",
+      "am": true,
+      "hour": 2
+    },
+    {
+      "#meta": {
+        "index": 3
+      },
+      "action": "Tick",
+      "am": true,
+      "hour": 3
+    },
+    {
+      "#meta": {
+        "index": 4
+      },
+      "action": "Tock",
+      "am": true,
+      "hour": 4
+    },
+    {
+      "#meta": {
+        "index": 5
+      },
+      "action": "Tick",
+      "am": true,
+      "hour": 5
+    },
+    {
+      "#meta": {
+        "index": 6
+      },
+      "action": "Tock",
+      "am": true,
+      "hour": 6
+    },
+    {
+      "#meta": {
+        "index": 7
+      },
+      "action": "Tick",
+      "am": true,
+      "hour": 7
+    },
+    {
+      "#meta": {
+        "index": 8
+      },
+      "action": "Tock",
+      "am": true,
+      "hour": 8
+    },
+    {
+      "#meta": {
+        "index": 9
+      },
+      "action": "Tick",
+      "am": true,
+      "hour": 9
+    },
+    {
+      "#meta": {
+        "index": 10
+      },
+      "action": "Tock",
+      "am": true,
+      "hour": 10
+    },
+    {
+      "#meta": {
+        "index": 11
+      },
+      "action": "Tick",
+      "am": true,
+      "hour": 11
+    },
+    {
+      "#meta": {
+        "index": 12
+      },
+      "action": "Tock",
+      "am": false,
+      "hour": 0
+    }
+  ]
+}
